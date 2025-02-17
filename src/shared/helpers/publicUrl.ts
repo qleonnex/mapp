@@ -1,8 +1,3 @@
-/**
- * @returns A complete public URL prefixed with the public static assets base
- * path.
- * @param path - path to prepend prefix to
- */
 export function publicUrl(path: string): string {
   // The baseUrl must be ending with the slash. The reason is if the baseUrl will
   // equal to "/my-base", then passing the path equal to "tonconnect-manifest.json" will not
