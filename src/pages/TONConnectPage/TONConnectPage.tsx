@@ -12,8 +12,8 @@ import {
 } from '@telegram-apps/telegram-ui';
 import type { FC } from 'react';
 
-import { DisplayData } from '@/components/DisplayData/DisplayData.tsx';
-import { Page } from '@/components/Page.tsx';
+import { DisplayData } from '@/shared/components/DisplayData/DisplayData.tsx';
+import { Page } from '@/shared/components/Page.tsx';
 
 import './TONConnectPage.css';
 
